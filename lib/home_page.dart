@@ -13,53 +13,65 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: _buildAppBAr(),
-      body: SingleChildScrollView(
-        child:Stack(
+      body: Stack(
         // alignment: Alignment.center,
-          // mainAxisAlignment:MainAxisAlignment.spaceBetween,
-         children: [
-                Container(
-                    height: 600,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/images/luck.jpeg"),
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
-
-                Container(
-                    
-                    // const Text(
-                    //   'Class',
-                    //   style: TextStyle(
-                    //     color:Colors.white
-                    //   ),
-                    // ),
-                    height: 600,
-                    decoration: const BoxDecoration(
-                      color: Color.fromARGB(255, 36, 36, 36),
-                      borderRadius: BorderRadius.only(
-                        topRight: Radius.circular(40),
-                        topLeft: Radius.circular(40),
-                      ),
-                    ),
-                  ),
-
-
-                Container(
-                    height: 600,
-                    color: const Color.fromARGB(255, 36, 36, 36),
-                  ),
-
-                Container(
-                    height: 400,
-                    color: const Color.fromARGB(255, 36, 36, 36),
-                  ),
-              ],
-            
-          ), 
-        ),   
+        // mainAxisAlignment:MainAxisAlignment.spaceBetween,
+        children: [
+          Positioned(
+            left: 0,
+            right: 0,
+            top: 0,
+            child: Container(
+              height: 600,
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/luck.jpeg"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            top: 450,
+            child: Container(
+              // const Text(
+              //   'Class',
+              //   style: TextStyle(
+              //     color:Colors.white
+              //   ),
+              // ),
+              height: 600,
+              decoration: const BoxDecoration(
+                color: Color.fromARGB(255, 34, 34, 34),
+                borderRadius: BorderRadius.only(
+                  topRight: Radius.circular(40),
+                  topLeft: Radius.circular(40),
+                ),
+              ),
+            ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            top: 1150,
+            child: Container(
+              height: 600,
+              color: Color.fromARGB(255, 11, 96, 125),
+            ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            top: 1750,
+            child: Container(
+              height: 600,
+              color: Color.fromARGB(255, 163, 23, 23),
+            ),
+          ),
+        ],
+      ),
     );
   }
 
