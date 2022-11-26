@@ -19,7 +19,7 @@ class _video_ScreenState extends State<video_Screen> {
   @override
   void initState() {
     super.initState();
-    _videoPlayerController = VideoPlayerController.network('https://pixabay.com/videos/id-125543/');
+    _videoPlayerController = VideoPlayerController.network('https://github.com/sarthak5697/finacial_application---Copy/blob/master/assets/videos/pexels-mikhail-nilov-7681176.mp4');
     _videoPlayerController!.initialize()
     .then((_){
       _chewieController = ChewieController(videoPlayerController: _videoPlayerController!);
