@@ -14,20 +14,20 @@ class Video
 const videos = [
 Video(
   name:'Video1',
-  url:'',
+  url:'https://github.com/sarthak5697/finacial_application---Copy/blob/master/assets/videos/video1.mp4',
   thumbnail:''
 ),
 Video(
   name:'Video2',
-  url:'',
+  url:'https://github.com/sarthak5697/finacial_application---Copy/blob/master/assets/videos/video2.mp4',
   thumbnail:''
 ),Video(
   name:'Video3',
-  url:'',
+  url:'https://github.com/sarthak5697/finacial_application---Copy/blob/master/assets/videos/video3.mp4',
   thumbnail:''
 ),Video(
   name:'Video4',
-  url:'',
+  url:'https://github.com/sarthak5697/finacial_application---Copy/blob/master/assets/videos/video4.mp4',
   thumbnail:''
 ),
 ];
